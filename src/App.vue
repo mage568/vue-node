@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <PersonalInfo />
+    <router-view />
   </div>
 </template>
 
 <script>
-import PersonalInfo from './components/PersonalInfo.vue'
 
 export default {
   name: 'app',
   components: {
-    PersonalInfo
+    
   }
 }
 </script>
